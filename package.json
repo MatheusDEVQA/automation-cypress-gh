@@ -1,0 +1,14 @@
+{
+  "name": "automation-cypress",
+  "version": "1.0.0",
+  "description": "create tests by differents elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "MatheusDevQa",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.3"
+  }
+}
