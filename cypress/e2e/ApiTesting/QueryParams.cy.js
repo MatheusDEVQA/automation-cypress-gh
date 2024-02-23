@@ -3,7 +3,9 @@ describe('API testtin with param', () =>{
         cy.request({
             method: 'GET',
             url: 'https://reqres.in/api/users',
-            qs: 2,
+            qs: {
+                page: 2
+            }
                    
         })
         .then((response) =>{
