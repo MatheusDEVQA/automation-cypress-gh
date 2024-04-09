@@ -1,3 +1,5 @@
+import { faker } from '@faker-js/faker'
+
 describe('Api testing Post', () => {
 
     const requestBodyRandom = {
@@ -7,6 +9,14 @@ describe('Api testing Post', () => {
         job: 'employer'
 
     }
+
+    const requestBodyRandomFaker = {
+        name: faker.name.fullName(),
+        email: faker.internet.email(),
+        job: faker.job
+
+    }
+
     it('Approach - Codes json object', () => {
         const requestBody =
         {
