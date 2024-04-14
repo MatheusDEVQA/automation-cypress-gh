@@ -9,7 +9,7 @@ describe('API testtin with param', () =>{
                    
         })
         .then((response) =>{
-            expect(reponse.status).equal(200)
+            expect(response.status).equal(200)
             expect(response.body.page).to.eq(2)
             expect(response.body.data).has.length(6)
             expect(response.body.data[2]).have.property('id', 9)

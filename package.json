@@ -4,7 +4,7 @@
   "description": "create tests by differents elements",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open",
+    "test": "cypress run --spec ./cypress/e2e/ApiTesting/QueryParams.cy.js",
     "test:api": "cypress run --spec cypress/e2e/api/customer.cy.js"
   },
   "author": "MatheusDevQa",
